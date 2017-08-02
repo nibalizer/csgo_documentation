@@ -141,3 +141,10 @@ Unknown command "hi"
 echo hi
 hi 
 ```
+
+
+installing telnet on windows
+-----------------------------
+
+
+https://technet.microsoft.com/en-us/library/cc771275(v=ws.10).aspx
