@@ -113,3 +113,31 @@ Example file:
 ```
 
 
+
+
+
+remote console
+--------------
+
+
+
+A remote console can be opened up and then connected to via telnet.
+
+https://developer.valvesoftware.com/wiki/Command_Line_Options#Linux_command_options_in_Left_4_Dead_.282.29
+
+
+```
+-netconport 2121
+```
+
+
+```
+ubuntu@csgo-server:~$ telnet localhost 2121
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+hi
+Unknown command "hi"
+echo hi
+hi 
+```
