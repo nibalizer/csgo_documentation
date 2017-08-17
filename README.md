@@ -143,6 +143,15 @@ hi
 ```
 
 
+Example of using telnet to echo a sentence then play a demo file:
+
+```
+echo Playing demo file
+playdemo C:\Users\csgo2\Desktop\cloud9-vs-renegades-train.dem
+```
+
+
+
 installing telnet on windows
 -----------------------------
 
@@ -165,6 +174,7 @@ mkdir ~/cs_go
 force_install_dir ./cs_go/
 app_update 730 validate
 ```
+
 
 
 
