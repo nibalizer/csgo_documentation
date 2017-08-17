@@ -80,6 +80,10 @@ Valve game state integration is an api for reading live data from the game.
 Config file: "C/Program File (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg"
 
 
+The file name must start with "gamestate_integration" and end with ".cfg". Make sure the file is actually a ".cfg" file and not a ".cfg.txt" file ( windows extensions are hidden by default).
+
+Example filename: "gamestate_integration_testnibz1.cfg"
+
 Example file:
 
 
@@ -112,7 +116,7 @@ Example file:
 }
 ```
 
-
+Source: https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Game_State_Integration
 
 
 
