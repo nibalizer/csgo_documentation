@@ -71,6 +71,30 @@ Current launch options: "-console -novid - high +exec autoexec"
 Console launches the console at game start. Novid disables valve/steam videos on start. HIgh enables more cpu time. +exec autoexec is telling csgo to read and process the autoexec file. (From research, this shouldn't really be necessary but it is on my system)
 
 
+
+Playing Demos
+-------------
+
+CS:GO has a replay functionality called 'demos'. They can be played from th e console. Record and stop recording are manual tasks, not tied to the game score, etc. Demo files pulled from the internet often start several minutes before the real game begins.
+
+Relative (to where?) and absoulte paths both work.
+
+```
+playdemo somedemofile.dem
+playdemo C:\Users\csgo2\Desktop\somedemo.dem
+```
+
+Demo files are ship usually as ".rar" files. They can be extraced with both Linux and Windows unrar programs.
+
+Demo speed playback can be modified with the following command (1.0 is real time):
+
+```
+demo_timescale 1.0
+demo_ timescale 4.0
+```
+
+
+
 game state integration
 ----------------------
 
