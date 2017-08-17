@@ -148,3 +148,23 @@ installing telnet on windows
 
 
 https://technet.microsoft.com/en-us/library/cc771275(v=ws.10).aspx
+
+
+
+steamcmd
+---------
+
+A command line interface to steam... derpy.
+
+https://developer.valvesoftware.com/wiki/SteamCMD
+
+Installing csgo (csgo is 730, csgo_server is 740):
+
+```shell
+mkdir ~/cs_go
+force_install_dir ./cs_go/
+app_update 730 validate
+```
+
+
+
