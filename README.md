@@ -226,6 +226,8 @@ spec_goto <some pos>; spec_lerpto <some pos2> 15 15
 bind [ "spec_goto <some pos>; spec_lerpto <some pos2> 15 15"
 ```
 
+[Observing Resources](https://www.reddit.com/r/GlobalOffensive/comments/54abps/my_guide_for_solo_casting_csgo/)
+
 
 
 
