@@ -57,6 +57,9 @@ cl_crosshair_outlinethickness "1"
 host_writeconfig
 ```
 
+[References](https://gist.github.com/KiloSwiss/a015b0620284ce74b5ed849ec599e51e)
+[References](https://www.tobyscs.com/csgo-console-commands/)
+
 
 Launch options
 --------------
