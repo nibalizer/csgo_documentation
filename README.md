@@ -205,4 +205,33 @@ app_update 730 validate
 
 
 
+camera and observer
+-------------------
+
+The camera can be moved around as an observer. Each number on the top of the keyboard jumps you to POV of a different player.
+
+## campaths
+
+Camera paths or "campaths" are scripted camera movements used to pop out of the POV and add spice to a broadcast. [video tutorial](https://www.youtube.com/watch?v=8T3rNL0rnW4&feature=youtu.be)
+
+```
+spec_pos
+<some pos>
+#move somehwere
+spec_pos
+<some pos2>
+# the actual campath
+spec_goto <some pos>; spec_lerpto <some pos2> 15 15
+# or bind it
+bind [ "spec_goto <some pos>; spec_lerpto <some pos2> 15 15"
+```
+
+
+
+
+
+
+
+
+
 
