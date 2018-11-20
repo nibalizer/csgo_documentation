@@ -236,6 +236,21 @@ bind [ "spec_goto <some pos>; spec_lerpto <some pos2> 15 15"
 
 
 
+voting
+------
+
+
+With the panorama ui, they limited the votes you can call. However you can still call them via the console.
+
+```
+callvote Kick <userID>
+callvote RestartGame
+callvote NextLevel <mapname>
+callvote ChangeLevel <mapname>
+callvote StartTimeOut
+callvote ScrambleTeams
+callvote SwapTeams
+```
 
 
 
