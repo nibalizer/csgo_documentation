@@ -253,5 +253,30 @@ callvote SwapTeams
 ```
 
 
+playback through voice chat
+---------------------------
 
+You can play any audio (e.g. music) through the voice chat in-game.
+
+The main entry point is the `voice_inputfromfile` command.
+
+```
+voice_inputfromfile
+
+Default: 0
+Get voice input from 'voice_input.wav' rather than from the microphone.
+```
+
+Useful for autoexec:
+
+```
+alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord"
+alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0"
+```
+
+For the sound files: encode at 96k, 22050hz sample rate
+
+See: https://github.com/SilentSys/SLAM
+
+Put the file in the same directory as csgo.exe (Program Files (x86) -> Steam -> steamapps -> common -> Counter Strike Global Offensive)
 
