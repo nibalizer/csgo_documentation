@@ -24,39 +24,39 @@ Autoexec contents:
 
 ```
 // network information
-net_graph 1
+net_graph 1;
 
-// radar hax
-cl_radar_always_centered 0
-cl_radar_scale 0.3
-cl_hud_radar_scale 1.15
-cl_radar_icon_scale_min 1
-cl_radar_rotate 1
-cl_radar_square_with_scoreboard 1
+// radar hax;
+cl_radar_always_centered 0;
+cl_radar_scale 0.3;
+cl_hud_radar_scale 1.15;
+cl_radar_icon_scale_min 1;
+cl_radar_rotate 1;
+cl_radar_square_with_scoreboard 1;
 
 // 1337 reticule
-cl_crosshairalpha "255"
-cl_crosshaircolor "5"
-cl_crosshaircolor_b "255"
-cl_crosshaircolor_r "255"
-cl_crosshaircolor_g "255"
-cl_crosshairdot "0"
-cl_crosshairgap "-1"
-cl_crosshairsize "4"
-cl_crosshairstyle "5"
-cl_crosshairusealpha "1"
-cl_crosshairthickness "1.4"
-cl_fixedcrosshairgap "0"
-cl_crosshair_drawoutline "1"
-cl_crosshair_outlinethickness "1"
+cl_crosshairalpha "255";
+cl_crosshaircolor "5";
+cl_crosshaircolor_b "255";
+cl_crosshaircolor_r "255";
+cl_crosshaircolor_g "255";
+cl_crosshairdot "0";
+cl_crosshairgap "-1";
+cl_crosshairsize "4";
+cl_crosshairstyle "5";
+cl_crosshairusealpha "1";
+cl_crosshairthickness "1.4";
+cl_fixedcrosshairgap "0";
+cl_crosshair_drawoutline "1";
+cl_crosshair_outlinethickness "1";
 
 
 // audio
-alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord"
-alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0"
+alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord";
+alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0";
 
 // outro
-host_writeconfig
+host_writeconfig;
 ```
 
 [References](https://gist.github.com/KiloSwiss/a015b0620284ce74b5ed849ec599e51e)
