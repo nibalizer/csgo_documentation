@@ -29,9 +29,6 @@ net_graph 1
 // radar hax
 cl_radar_always_centered 0
 cl_radar_scale 0.3
-// radar zoom in-out script
-bind ???KP_plus??? ???incrementvar cl_radar_scale 0.25 1.0 0.05???;
-bind ???KP_minus??? ???incrementvar cl_radar_scale 0.25 1.0 -0.05???;
 cl_hud_radar_scale 1.15
 cl_radar_icon_scale_min 1
 cl_radar_rotate 1
@@ -52,6 +49,11 @@ cl_crosshairthickness "1.4"
 cl_fixedcrosshairgap "0"
 cl_crosshair_drawoutline "1"
 cl_crosshair_outlinethickness "1"
+
+
+// audio
+alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord"
+alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0"
 
 // outro
 host_writeconfig
