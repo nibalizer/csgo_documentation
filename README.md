@@ -71,9 +71,9 @@ CSGO can be configured with launch options. These generally come in two flavors:
 
 Modify launch commands in Steam: Right click csgo, go to properties, click "Set Launch Options"
 
-Current launch options: "-console -novid -high +exec autoexec"
+Current launch options: "-nojoy -console -novid -high +exec autoexec"
 
-Console launches the console at game start. Novid disables valve/steam videos on start. HIgh enables more cpu time. +exec autoexec is telling csgo to read and process the autoexec file. (From research, this shouldn't really be necessary but it is on my system)
+Console launches the console at game start. Novid disables valve/steam videos on start. HIgh enables more cpu time. +exec autoexec is telling csgo to read and process the autoexec file. (From research, this shouldn't really be necessary but it is on my system). Nojoy fixes a bug on ubuntu 18.04.
 
 
 
