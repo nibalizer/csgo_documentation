@@ -23,10 +23,12 @@ Autoexec path: "/C/Program Files (x86)/Steam/userdata/<my-steam-id-number/730/lo
 Autoexec contents:
 
 ```
-// network information
+// network information;
+
 net_graph 1;
 
 // radar hax;
+
 cl_radar_always_centered 0;
 cl_radar_scale 0.3;
 cl_hud_radar_scale 1.15;
@@ -34,7 +36,9 @@ cl_radar_icon_scale_min 1;
 cl_radar_rotate 1;
 cl_radar_square_with_scoreboard 1;
 
-// 1337 reticule
+// 1337 reticule;
+
+
 cl_crosshairalpha "255";
 cl_crosshaircolor "5";
 cl_crosshaircolor_b "255";
@@ -51,11 +55,13 @@ cl_crosshair_drawoutline "1";
 cl_crosshair_outlinethickness "1";
 
 
-// audio
+// audio;
+
 alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord";
 alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0";
 
-// outro
+// outro;
+
 host_writeconfig;
 ```
 
@@ -272,8 +278,8 @@ Get voice input from 'voice_input.wav' rather than from the microphone.
 Useful for autoexec:
 
 ```
-alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord"
-alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0"
+alias slam_play_on "voice_inputfromfile 1; voice_loopback 1; +voicerecord";
+alias slam_play_off "-voicerecord; voice_inputfromfile 0; voice_loopback 0";
 ```
 
 For the sound files: encode at 96k, 22050hz sample rate
