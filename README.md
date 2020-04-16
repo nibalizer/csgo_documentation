@@ -54,6 +54,9 @@ cl_fixedcrosshairgap "0";
 cl_crosshair_drawoutline "1";
 cl_crosshair_outlinethickness "1";
 
+// misc
+alias f9 "kill"
+
 
 // audio;
 
