@@ -147,6 +147,7 @@ Example file:
    "allplayers_weapons"  "1"      
    "allplayers_position" "1"      // output the player world positions, only valid for HLTV or spectators. 
    "phase_countdowns"    "1"      // countdowns of each second remaining for game phases, eg round time left, time until bomb explode, freezetime. Only valid for HLTV or spectators. 
+   "allgrenades"    "1"           // output information about all grenades and inferno flames in the world, only valid for GOTV or spectators.
  }
 }
 ```
