@@ -56,7 +56,8 @@ cl_crosshair_outlinethickness "1";
 
 // misc
 alias f9 "kill"
-
+// bind f		"+lookatweapon; r_cleardecals"			//  Inspect your weapon + remove decal textures (bulletholes and blood).
+// cl_righthand					1		// def. 1 - Weaponhand  1=Righthand  0=Lefthand
 
 // audio;
 
