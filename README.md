@@ -293,3 +293,16 @@ See: https://github.com/SilentSys/SLAM
 
 Put the file in the same directory as csgo.exe (Program Files (x86) -> Steam -> steamapps -> common -> Counter Strike Global Offensive)
 
+smoke practice
+--------------
+
+When one wants to step up to the big leagues, they need to learn how to do
+certain smokes. To practice smokes, enable your developer console, start
+a `Practice With Bots` match, then pop your console and enter the following
+string of commands:
+
+```shell
+sv_cheats 1; bot_kick; mp_warmup_end; mp_freezetime 0; mp_roundtime_defuse 60; sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; ammo_grenade_limit_total 5; sv_infinite_ammo 1;
+
+mp_buy_anywhere 1; mp_maxmoney 50000; mp_startmoney 50000; mp_buytime 9999; mp_restartgame 1;
+```
